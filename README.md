@@ -2,7 +2,7 @@
 Exercise 5 from Kyle Simpson's Advanced Javascript course
 
 # Solution
-I added my own more intuitive (for me, anyway!) alternative solution using async/await (which did not exist when Kyle wrote the course in 2015). My solutions deals with any number of files (not just 3). This solution is in ex5-async-await.js.
+I added my own more intuitive (for me, anyway!) alternative solution using async/await (which did not exist when Kyle wrote the course in 2015). My solutions deal with any number of files (not just 3). This solution is in ex5-async-await.js.
 
 Run it with the command: `node ex5-async-await`.
 
