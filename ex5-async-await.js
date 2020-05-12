@@ -22,8 +22,8 @@ function getFile(file) {
 
 let fun = async (fileNames) => {
 	let promiseArray = fileNames.map(getFile);
-	for(var i = 0; i < promiseArray.length; i++) {
-		console.log(await promiseArray[i]);
+	for(promise of promiseArray) {
+		console.log(await promise);
 	}
 	console.log("Complete!");
 };
